@@ -47,7 +47,7 @@
           ?>
             <div class="event-card">
               <a href='<?=$events["url"]?>' target="_blank"><h3 class="event-card-title"><?=$events["title"]?></h3></a>
-              <h3 class="event-card-txt"><?="Location: ".$events["location"]?></h3>
+              <a href='<?="https://maps.google.com/maps?q=".$events["location"]?>' target="_blank"><h3 class="event-card-txt"><?="Location: ".$events["location"]?></h3></a>
               <h3 class="event-card-txt"><?="Date: ".$events["date"]?></h3>
             </div>
 

@@ -11,17 +11,6 @@ h2 {
   color: white;
 }
 
-.container {
-  padding: 10px;
-  display: grid;
-  grid-template-columns: 70% 30%;
-  <!-- grid-gap: 20px; -->
-}
-
-.container-bg {
-  width: 66%;
-}
-
 .article-container {
   background-color: white;
   height: 100%;
@@ -32,37 +21,11 @@ h2 {
   font-size: 15px;
 }
 
-.event-container {
-  background-color: #F8F8F8;
-  width: auto;
-}
-
-.event-title {
-  font-weight: normal;
-  padding: 10px;
-}
-
-.event-card {
-  padding: 5px;
-  margin: 20px;
-  background-color: white;
-  box-shadow: 0 5px 5px -5px #333;
-}
-
-.event-card-title{
-  color: #8B8D09;
-  font-size: 15px;
-}
-
-.event-card-txt{
-  font-size: 10px;
-}
-
-
 .card {
   margin: 10px;
   background-color: white;
   box-shadow: 0 5px 5px -5px #333;
+  border-top: 3px solid #8B8D09;
 }
 
 .card-img {
@@ -86,6 +49,42 @@ h2 {
   font-size: 15px;
   padding: 5px;
   color: black;
+}
+
+.container {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+
+.container-bg {
+  width: 66%;
+}
+
+.event-card {
+  padding: 5px;
+  margin: 20px;
+  background-color: white;
+  box-shadow: 0 5px 5px -5px #333;
+}
+
+.event-card-title{
+  color: #8B8D09;
+  font-size: 15px;
+}
+
+.event-card-txt{
+  font-size: 10px;
+}
+
+.event-container {
+  background-color: #F8F8F8;
+  width: auto;
+}
+
+.event-title {
+  font-weight: normal;
+  padding: 10px;
 }
 
 .navbar {
