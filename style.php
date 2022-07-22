@@ -38,12 +38,31 @@ h2 {
 }
 
 .event-title {
-  font-weight: bold;
+  font-weight: normal;
   padding: 10px;
 }
 
+.event-card {
+  padding: 5px;
+  margin: 20px;
+  background-color: white;
+  box-shadow: 0 5px 5px -5px #333;
+}
+
+.event-card-title{
+  color: #8B8D09;
+  font-size: 15px;
+}
+
+.event-card-txt{
+  font-size: 10px;
+}
+
+
 .card {
   margin: 10px;
+  background-color: white;
+  box-shadow: 0 5px 5px -5px #333;
 }
 
 .card-img {
@@ -56,9 +75,20 @@ h2 {
   grid-gap: 20px;
 }
 
+.card-content {
+  height: 50px;
+  overflow: scroll;
+  padding: 10px;
+}
+
 .card-title {
   height: auto;
   font-size: 15px;
   padding: 5px;
   color: black;
+}
+
+.navbar {
+  margin-bottom: 10px;
+  box-shadow: 0 5px 5px -5px #333;
 }
